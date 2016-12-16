@@ -1,10 +1,7 @@
 # Ignore Everything except jibrankalia directory
 bin
 pkg
-src
-
-!.gitignore
-!/src/github.com
+src/** !src/github/jibrankalia/**
 
 # Compiled Object files, Static and Dynamic libs (Shared Objects)
 *.o
