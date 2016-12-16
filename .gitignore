@@ -1,6 +1,9 @@
 # Folders
 bin
 pkg
+!/src/github.com
+src/github.com/*
+!src/github.com/jibrankalia
 
 # Compiled Object files, Static and Dynamic libs (Shared Objects)
 *.o
