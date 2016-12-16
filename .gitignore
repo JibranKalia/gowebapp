@@ -1,8 +1,10 @@
 # Ignore Everything except jibrankalia directory
-*
-!.gitignore
-!/src/github.com/jibrankalia/**
+bin
+pkg
+src
 
+!.gitignore
+!/src/github.com
 
 # Compiled Object files, Static and Dynamic libs (Shared Objects)
 *.o
